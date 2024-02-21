@@ -1,0 +1,114 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(9, 39, 37);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-top: 0px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.rules{
+    padding-top: 70px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+h2 {
+    padding: 30px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.311);
+    font-size: medium;
+    height: 10px;
+    width: 100%;
+    text-align: center;
+    border: solid 4px black;
+}
+h3 {
+    color: rgb(9, 39, 37);
+}
+
+.scorebox {
+    display:flex;
+    position: fixed;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 10px;
+    font-size: 12px;
+    color: white;
+    width: 100%;
+    height: 20px;
+}
+
+.choices {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    background-color: rgb(2, 30, 45);
+    box-shadow: 0 5px 7px 0 black;
+    margin-bottom: 30px;
+    
+}
+
+.button {
+    padding: 5px;
+    margin: 5px;
+    border-color: rgb(4, 100, 87); 
+    background-color: rgb(9, 39, 37);
+    color: white; 
+    cursor: pointer;
+    transition: background-color 0.5s ease; 
+}
+
+.button:hover {
+    background-color: rgb(4, 79, 81);
+}
+
+.display-text {
+    text-align: center;
+    width: 400px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: rgb(2, 30, 45);
+    border-radius: 20px;
+    box-shadow: 0px 5px 7px 0px black;
+    color: white;
+}
+
+#playerDisplay, #computerDisplay, #resultDisplay {
+    padding: 10px;
+    border: solid rgb(255, 255, 255);
+    border-radius: 20px;
+
+}
+
+#playerDisplay {
+    background-color: rgb(50, 114, 34);
+   
+}
+
+#computerDisplay {
+    background-color: rgb(147, 22, 22);
+}
+
+.scoreDisplay{
+    font-size: 1.5rem;
+}
+.greenText, #playerScoreDisplay{
+    color: hsl(130, 71%, 38%);
+}
+.redText, #computerScoreDisplay{
+    color: hsl(0, 65%, 38%);
+}
